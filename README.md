@@ -1,51 +1,56 @@
-# 🚀 [Nombre de tu Proyecto: Ej. Sistema de Inventario API]
+# 🚀 Proyecto: API REST con Express.js
 
-**Materia:** [Nombre de la Asignatura o Clase]  
+**Curso:** Transformación Digital para la Docencia Técnica 3  
 **Catedrática:** Profe Dina 👩‍🏫  
 
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
 ![API REST](https://img.shields.io/badge/API_REST-005571?style=for-the-badge)
 
 ---
 
 ## 📖 Descripción del Proyecto
 
-[Describe aquí tu proyecto. Ejemplo: *Esta es una API RESTful desarrollada con Node.js y Express. Permite gestionar una base de datos de estudiantes, realizando operaciones CRUD (Crear, Leer, Actualizar, Eliminar). Toda la información se procesa en formato JSON.*]
+Como parte de la capacitación en el **Curso Transformación Digital para la Docencia Técnica 3**, hemos desarrollado esta API RESTful utilizando **Node.js** y el framework **Express.js**. 
+
+El objetivo principal de este proyecto es demostrar la creación de un servidor backend funcional capaz de manejar peticiones HTTP, rutas (endpoints) y procesar datos en formato JSON, aplicando los conceptos de transformación digital en entornos educativos.
 
 ---
 
-## 🌐 Arquitectura y Uso de la API
+## 🌐 Arquitectura de la API
 
-A continuación se muestra el esquema visual de cómo nuestra API construida en Node.js se comunica con el cliente y la base de datos:
+A continuación, presentamos un esquema visual de la estructura de nuestra API y cómo gestiona las peticiones:
 
-> 🖼️ **Nota para ti:** Reemplaza el enlace de abajo con la URL de tu propio diagrama. Puedes subir tu imagen a la carpeta de tu repositorio y enlazarla así: `![Diagrama](./imagenes/mi-diagrama.png)`
+> 🖼️ **Nota para el equipo:** Suban su propio diagrama de flujo a la carpeta del repositorio y cambien este enlace. Ejemplo: `![Diagrama de Arquitectura](./docs/esquema-api.png)`
 
-![Esquema de la API Node.js](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg) 
-*(Aquí puedes colocar un diagrama de flujo de cómo funciona tu servidor Node.js)*
+![Esquema de Express.js](https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png)
+*(Reemplazar con el diagrama de la arquitectura del proyecto)*
 
-### 📌 Endpoints Principales
+### 📌 Endpoints Desarrollados
 
-Esta es la información de las rutas que construimos para que la profe pueda probar la API:
+La API cuenta con las siguientes rutas configuradas para su evaluación:
 
 | Método | Endpoint | Descripción |
 | :--- | :--- | :--- |
-| **GET** | `/api/usuarios` | Obtiene la lista de todos los usuarios registrados. |
-| **POST** | `/api/usuarios` | Crea un nuevo usuario en la base de datos. |
-| **PUT** | `/api/usuarios/:id` | Actualiza la información de un usuario específico. |
-| **DELETE** | `/api/usuarios/:id` | Elimina un usuario del sistema. |
+| **GET** | `/api/recursos` | Obtiene la lista completa de recursos. |
+| **GET** | `/api/recursos/:id` | Obtiene un recurso específico por su ID. |
+| **POST** | `/api/recursos` | Agrega un nuevo recurso al sistema. |
+| **PUT** | `/api/recursos/:id` | Actualiza los datos de un recurso existente. |
+| **DELETE** | `/api/recursos/:id` | Elimina un recurso de la base de datos. |
 
-### 📸 Captura de Prueba (Postman / Insomnia)
+### 📸 Evidencia de Funcionamiento
 
-Demostración de la API respondiendo correctamente a una petición GET:
+Captura de pantalla de las pruebas realizadas (Ej. Postman, Thunder Client o Insomnia):
 
-![Prueba de la API](https://via.placeholder.com/800x400.png?text=Sube+aqui+una+captura+de+pantalla+de+Postman+probando+tu+API)
+> 🖼️ **Nota para el equipo:** Suban su captura de prueba a la carpeta del repositorio y cambien este enlace. Ejemplo: `![Prueba GET](./docs/prueba-postman.png)`
+
+![Prueba de la API](https://via.placeholder.com/800x400.png?text=Sube+aqui+una+captura+de+pantalla+probando+los+endpoints+con+Express.js)
 
 ---
 
-## ⚙️ Instrucciones de Instalación
+## ⚙️ Instrucciones de Instalación y Despliegue
 
-Pasos para que la profe Dina pueda levantar el servidor Node.js en su computadora:
+Pasos para que la profe Dina pueda ejecutar el servidor en su entorno local:
 
 1. **Clonar el repositorio:**
    ```bash
